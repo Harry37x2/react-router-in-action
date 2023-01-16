@@ -282,12 +282,22 @@ ul {
 .active {
   color: var(--primary-500);
 }
-.products article {
+
+.products {
   margin-bottom: 1rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+    
 }
 
 .products h5 {
   margin-bottom: 0;
+}
+
+.products img {
+  width: 400px;
+  aspect-ratio: 1/1;
 }
 
 .product img {
